@@ -8,8 +8,8 @@ const socketio = require("socket.io")(http, {
 });
 
 var position = {
-  x: 200,
-  y: 200,
+  x: 320,
+  y: 230,
 };
 
 http.listen(3000, () => {
